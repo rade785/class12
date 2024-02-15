@@ -32,6 +32,11 @@ header {
     font-size: medium;
 }
 
+.headBtn:hover {
+    background-color: aqua;
+    color: black;
+}
+
 #countryInput {
     padding: 20px;
     font-size: large;
@@ -48,11 +53,25 @@ header {
     border-radius: 5px;
 }
 
-#rstBtn{
+#searchBtn:hover {
+    background-color: aqua;
+    color: black;
+}
+
+#rstBtn {
     padding: 22px;
     font-size: large;
     background-color: darkgray;
     color: black;
     border: 0px;
     border-radius: 5px;
+}
+
+#rstBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+#results {
+    padding: 50px;
 }
